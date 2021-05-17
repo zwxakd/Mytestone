@@ -1,0 +1,5 @@
+Tue, 11 May 2021 23:10:22-__main__-Logs.py-[line:67]-DEBUG-[日志信息]: I am a debug message
+Tue, 11 May 2021 23:10:22-__main__-Logs.py-[line:68]-INFO-[日志信息]: I am a info message
+Tue, 11 May 2021 23:10:22-__main__-Logs.py-[line:69]-WARNING-[日志信息]: I am a warning message
+Tue, 11 May 2021 23:10:22-__main__-Logs.py-[line:70]-ERROR-[日志信息]: I am a error message
+Tue, 11 May 2021 23:10:22-__main__-Logs.py-[line:71]-CRITICAL-[日志信息]: I am a critical message

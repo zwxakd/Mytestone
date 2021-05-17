@@ -1,0 +1,117 @@
+{
+  "uid" : "16bcd89b17c093a0",
+  "name" : "test_login_001[datas4]",
+  "fullName" : "test_login_book#test_login_001",
+  "historyId" : "2908ab5f007d1f9894a8cdd226ca6a7a",
+  "time" : {
+    "start" : 1620906594203,
+    "stop" : 1620906594203,
+    "duration" : 0
+  },
+  "description" : "书籍管理系统测试结果",
+  "descriptionHtml" : "<p>书籍管理系统测试结果</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+  "statusTrace" : "@pytest.fixture(scope='module')\n    def getToken():\n    \turl = 'http://127.0.0.1:5000/auth'\n    \tdata = {\"username\":\"wuya\",\"password\":\"asd888\"}\n    \tr=res.post_Req(url=url,json=data)\n>   \treturn r.json()['access_token']\nE    TypeError: list indices must be integers or slices, not str\n\nconftest.py:17: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "getToken",
+    "time" : {
+      "start" : 1620906594116,
+      "stop" : 1620906594123,
+      "duration" : 7
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: list indices must be integers or slices, not str\n",
+    "statusTrace" : "  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\API_test_project\\test_case\\conftest.py\", line 17, in getToken\n    return r.json()['access_token']\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1620906594116,
+      "stop" : 1620906594116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1620906594116,
+      "stop" : 1620906594116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1620906594116,
+      "stop" : 1620906594116,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_book"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT64JLU"
+  }, {
+    "name" : "thread",
+    "value" : "15088-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "16bcd89b17c093a0.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}

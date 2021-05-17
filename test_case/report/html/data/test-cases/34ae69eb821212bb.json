@@ -1,0 +1,132 @@
+{
+  "uid" : "34ae69eb821212bb",
+  "name" : "test_login_001[datas0]",
+  "fullName" : "test_login_book#test_login_001",
+  "historyId" : "c7db69ab8765d4c5f1df7f95347a6647",
+  "time" : {
+    "start" : 1620906687040,
+    "stop" : 1620906687040,
+    "duration" : 0
+  },
+  "description" : "书籍管理系统测试结果",
+  "descriptionHtml" : "<p>书籍管理系统测试结果</p>\n",
+  "status" : "broken",
+  "statusMessage" : "TypeError: list indices must be integers or slices, not str",
+  "statusTrace" : "@pytest.fixture(scope='module')\n    def getToken():\n    \turl = 'http://127.0.0.1:5000/auth'\n    \tdata = {\"username\":\"wuya\",\"password\":\"asd888\"}\n    \tr=res.post_Req(url=url,json=data)\n>   \treturn r.json()['access_token']\nE    TypeError: list indices must be integers or slices, not str\n\nconftest.py:17: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_verify_url",
+    "time" : {
+      "start" : 1620906687042,
+      "stop" : 1620906687042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1620906687041,
+      "stop" : 1620906687041,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "getToken",
+    "time" : {
+      "start" : 1620906687042,
+      "stop" : 1620906687047,
+      "duration" : 5
+    },
+    "status" : "broken",
+    "statusMessage" : "TypeError: list indices must be integers or slices, not str\n",
+    "statusTrace" : "  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\pluggy\\callers.py\", line 187, in _multicall\n    res = hook_impl.function(*args)\n  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 1126, in pytest_fixture_setup\n    result = call_fixture_func(fixturefunc, request, kwargs)\n  File \"D:\\ProgramFiles(x86)\\python3\\lib\\site-packages\\_pytest\\fixtures.py\", line 932, in call_fixture_func\n    fixture_result = fixturefunc(**kwargs)\n  File \"D:\\API_test_project\\test_case\\conftest.py\", line 17, in getToken\n    return r.json()['access_token']\n",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "sensitive_url",
+    "time" : {
+      "start" : 1620906687042,
+      "stop" : 1620906687042,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_login_book"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GT64JLU"
+  }, {
+    "name" : "thread",
+    "value" : "3672-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login_book"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "2e3a18e9712e3d4e",
+      "status" : "broken",
+      "statusDetails" : "TypeError: list indices must be integers or slices, not str",
+      "time" : {
+        "start" : 1620906594115,
+        "stop" : 1620906594115,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "34ae69eb821212bb.json",
+  "parameterValues" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+}

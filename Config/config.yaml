@@ -1,0 +1,9 @@
+---
+url: http://www.baidu.com
+method: post
+User:
+  user: zhangwx
+  password: xiong1226
+#  sex: "{"aa":"asda","asda":"adas"}"
+expect:
+  user: zhangwx

@@ -1,0 +1,147 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-GT64JLU",
+    "children" : [ {
+      "name" : "15088-MainThread",
+      "children" : [ {
+        "name" : "test_login_001[datas3]",
+        "uid" : "caf542edc99e11e5",
+        "parentUid" : "6b444dd979da6006271b475500893f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906594199,
+          "stop" : 1620906594199,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '接口名称': '修改书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{\"name\":\"嗯嗯\",\"done\":true,\"author\":\"维尼\"}', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas0]",
+        "uid" : "2e3a18e9712e3d4e",
+        "parentUid" : "6b444dd979da6006271b475500893f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906594115,
+          "stop" : 1620906594115,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas1]",
+        "uid" : "ac7ac47397b057e9",
+        "parentUid" : "6b444dd979da6006271b475500893f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906594188,
+          "stop" : 1620906594188,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"name\":\"哈哈镜\",\"done\":true,\"author\":\"维尼\"}', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas2]",
+        "uid" : "1291df999e152fa",
+        "parentUid" : "6b444dd979da6006271b475500893f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906594193,
+          "stop" : 1620906594193,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '查询添加书籍的信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '{\"datas\": [{\"author\": \"维尼\", \"done\": true, \"id\": 3, \"name\": \"哈哈镜\"}], \"msg\": \"ok\", \"status\": 0}', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas4]",
+        "uid" : "16bcd89b17c093a0",
+        "parentUid" : "6b444dd979da6006271b475500893f3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906594203,
+          "stop" : 1620906594203,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "6b444dd979da6006271b475500893f3a"
+    }, {
+      "name" : "3672-MainThread",
+      "children" : [ {
+        "name" : "test_login_001[datas2]",
+        "uid" : "97997590975644a3",
+        "parentUid" : "20ef71742f0b549b044014ec919fb6fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906687090,
+          "stop" : 1620906687090,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_003', '模块': '书籍管理系统', '接口名称': '查询添加书籍的信息', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '{\"datas\": [{\"author\": \"维尼\", \"done\": true, \"id\": 3, \"name\": \"哈哈镜\"}], \"msg\": \"ok\", \"status\": 0}', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas3]",
+        "uid" : "cacb17fcc9ca0d26",
+        "parentUid" : "20ef71742f0b549b044014ec919fb6fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906687095,
+          "stop" : 1620906687095,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_004', '模块': '书籍管理系统', '接口名称': '修改书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'put', '请求参数类型': 'json', '请求参数': '{\"name\":\"嗯嗯\",\"done\":true,\"author\":\"维尼\"}', '期望结果': '更新书的信息成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas0]",
+        "uid" : "34ae69eb821212bb",
+        "parentUid" : "20ef71742f0b549b044014ec919fb6fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906687040,
+          "stop" : 1620906687040,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_001', '模块': '书籍管理系统', '接口名称': '获取所有书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'get', '请求参数类型': '', '请求参数': '', '期望结果': '', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas1]",
+        "uid" : "ed6bee421d68223",
+        "parentUid" : "20ef71742f0b549b044014ec919fb6fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906687085,
+          "stop" : 1620906687085,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_002', '模块': '书籍管理系统', '接口名称': '添加书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/books', '前置条件': 'login', '请求方法': 'post', '请求参数类型': 'json', '请求参数': '{\"name\":\"哈哈镜\",\"done\":true,\"author\":\"维尼\"}', '期望结果': '添加书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      }, {
+        "name" : "test_login_001[datas4]",
+        "uid" : "c8321d97cfb0b5cf",
+        "parentUid" : "20ef71742f0b549b044014ec919fb6fe",
+        "status" : "broken",
+        "time" : {
+          "start" : 1620906687100,
+          "stop" : 1620906687100,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'测试用例ID': 'book_005', '模块': '书籍管理系统', '接口名称': '删除书籍', '请求地址': 'http://127.0.0.1:5000/v1/api/book/{bookId}', '前置条件': 'login', '请求方法': 'delete', '请求参数类型': '', '请求参数': '', '期望结果': '删除书籍成功', '是否运行': 'y', '请求头': '{\"Authorization\":\"JWT {token}\"}', '状态码': 200.0}" ]
+      } ],
+      "uid" : "20ef71742f0b549b044014ec919fb6fe"
+    } ],
+    "uid" : "7de2fd6a17d0b06924dda0507df4f40c"
+  } ]
+}

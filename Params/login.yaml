@@ -1,0 +1,11 @@
+#用户登录成功
+url: http://127.0.0.1:5000/login
+method: post
+data:
+  username: 维尼
+  password:
+  age: 18
+  sex: 男
+expect:
+  username: 维尼
+
